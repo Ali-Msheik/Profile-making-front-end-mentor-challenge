@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+min-height: 100vh;
+position: relative;
+background-color:hsl(185, 75%, 39%);
+background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+background-repeat: no-repeat,no-repeat;
+background-position: right 46vw bottom 50vh , left 46vw top 50vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+main{
+    position: relative;
+    width: 300px;
+    border-radius: 18px;
+    background-color: white;
+    height: 325px;
+    box-shadow: 0 0 7px rgb(116, 113, 113);
+}
+.image1{
+   border-top-left-radius: 18px;
+   border-top-right-radius: 18px;
+    width:  100%;
+    height: 35%;
+}
+.image2{
+    border-radius: 50%;
+    margin-left: 33%;
+    margin-top: -30px;
+    border: 5px solid white;
+}
+.victorcrest{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 12px;
+}
+.article{
+    margin-left: 75px;
+}
+.number26{
+    color: rgb(128, 122, 122);
+}
+h4{
+    margin-left: 38%;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: rgb(91, 89, 89);
+}
+article{
+    border-bottom:  1px solid hsla(0, 27%, 76%, 0.788);
+}
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px 10px;
+}
+footer span {
+    color:  hsl(227, 10%, 46%);
+}
