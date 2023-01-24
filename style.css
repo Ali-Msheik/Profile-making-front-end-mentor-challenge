@@ -7,7 +7,7 @@ body{
 min-height: 100vh;
 position: relative;
 background-color:hsl(185, 75%, 39%);
-background-image: url(./images/bg-pattern-top.svg),url(./images/bg-pattern-bottom.svg);
+background-image: url(bg-pattern-top.svg),url(bg-pattern-bottom.svg);
 background-repeat: no-repeat,no-repeat;
 background-position: right 46vw bottom 50vh , left 46vw top 50vh;
 display: flex;
